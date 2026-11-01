@@ -27,7 +27,7 @@ public class AuthController {
     @GetMapping("/health")
     public String health() {
         log.info("Health check api has been requested");
-        return "Hello Everyone, our pipeline is ready. Im Healthy";
+        return "Hello Everyone, my name is Rukshan. Im Healthy";
     }
 
 }
